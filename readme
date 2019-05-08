@@ -1,0 +1,5 @@
+指定master
+-Dspark.master=local[*]
+-Dspark.master=spark://ip:port
+-Dspark.master=yarn
+-Dspark.master=yarn-client
